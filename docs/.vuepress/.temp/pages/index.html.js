@@ -1,50 +1,63 @@
 export const data = {
-  "key": "v-8daa1a0e",
-  "path": "/",
-  "title": "首页",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "home": true,
-    "title": "首页",
-    "heroImage": "/imgs/logo.svg",
-    "actions": [
+  key: 'v-8daa1a0e',
+  path: '/',
+  title: '首页',
+  lang: 'zh-CN',
+  frontmatter: {
+    home: true,
+    title: '首页',
+    heroImage: '/imgs/logo.svg',
+    actions: [
       {
-        "text": "课程介绍",
-        "link": "/intro/",
-        "type": "secondary"
+        text: '课程介绍',
+        link: '/intro/',
+        type: 'secondary',
       },
       {
-        "text": "基础 →",
-        "link": "/base/",
-        "type": "primary"
-      }
+        text: '基础 →',
+        link: '/base/',
+        type: 'primary',
+      },
     ],
-    "features": [
+    features: [
       {
-        "title": "💡 最新最热的技术",
-        "details": "使用最新 Webpack5 技术"
+        title: '💡 最新最热的技术',
+        details: '使用最新 Webpack5 技术',
       },
       {
-        "title": "🛠️ 最细致讲解",
-        "details": "从基础配置，到高级优化，到项目配置，最后到原理分析"
+        title: '🛠️ 最细致讲解',
+        details: '从基础配置，到高级优化，到项目配置，最后到原理分析',
       },
       {
-        "title": "📦 最全面的案例",
-        "details": "不同角度实现loader、plugin"
-      }
+        title: '📦 最全面的案例',
+        details: '不同角度实现loader、plugin',
+      },
     ],
-    "footer": "MIT Licensed | Copyright © 2022-present"
+    footer: 'MIT Licensed | Copyright © 2022-present',
   },
-  "excerpt": "",
-  "headers": [],
-  "git": {
-    "contributors": [
+  excerpt: '',
+  headers: [],
+  git: {
+    contributors: [
       {
-        "name": "胡雄柏",
-        "email": "1556511170@qq.com",
-        "commits": 1
-      }
-    ]
+        name: 'hoo',
+        email: 'hoo@qq.com',
+        commits: 1,
+      },
+    ],
   },
-  "filePathRelative": "README.md"
+  filePathRelative: 'README.md',
+};
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept();
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data);
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data);
+  });
 }

@@ -1,1 +1,12 @@
-const t={key:"v-860cdcba",path:"/origin/summary.html",title:"\u603B\u7ED3",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{contributors:[{name:"\u80E1\u96C4\u67CF",email:"1556511170@qq.com",commits:1}]},filePathRelative:"origin/summary.md"};export{t as data};
+const t = {
+  key: 'v-860cdcba',
+  path: '/origin/summary.html',
+  title: '\u603B\u7ED3',
+  lang: 'zh-CN',
+  frontmatter: {},
+  excerpt: '',
+  headers: [],
+  git: { contributors: [{ name: '\u80E1\u96C4\u67CF', email: 'hoo@qq.com', commits: 1 }] },
+  filePathRelative: 'origin/summary.md',
+};
+export { t as data };

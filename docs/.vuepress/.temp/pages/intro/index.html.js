@@ -1,19 +1,32 @@
 export const data = {
-  "key": "v-f9e30908",
-  "path": "/intro/",
-  "title": "依赖环境",
-  "lang": "zh-CN",
-  "frontmatter": {},
-  "excerpt": "",
-  "headers": [],
-  "git": {
-    "contributors": [
+  key: 'v-f9e30908',
+  path: '/intro/',
+  title: '依赖环境',
+  lang: 'zh-CN',
+  frontmatter: {},
+  excerpt: '',
+  headers: [],
+  git: {
+    contributors: [
       {
-        "name": "胡雄柏",
-        "email": "1556511170@qq.com",
-        "commits": 1
-      }
-    ]
+        name: 'hoo',
+        email: 'hoo@qq.com',
+        commits: 1,
+      },
+    ],
   },
-  "filePathRelative": "intro/README.md"
+  filePathRelative: 'intro/README.md',
+};
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept();
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data);
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data);
+  });
 }

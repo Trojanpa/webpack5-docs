@@ -47,14 +47,6 @@ export const pagesComponents = {
   "v-10b408dc": defineAsyncComponent(() => import(/* webpackChunkName: "v-10b408dc" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/intro/pre.html.vue")),
   // path: /intro/
   "v-f9e30908": defineAsyncComponent(() => import(/* webpackChunkName: "v-f9e30908" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/intro/index.html.vue")),
-  // path: /project/react-cli.html
-  "v-61413f94": defineAsyncComponent(() => import(/* webpackChunkName: "v-61413f94" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/project/react-cli.html.vue")),
-  // path: /project/
-  "v-c9bbfba2": defineAsyncComponent(() => import(/* webpackChunkName: "v-c9bbfba2" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/project/index.html.vue")),
-  // path: /project/summary.html
-  "v-2a04a4a2": defineAsyncComponent(() => import(/* webpackChunkName: "v-2a04a4a2" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/project/summary.html.vue")),
-  // path: /project/vue-cli.html
-  "v-04c1b7cf": defineAsyncComponent(() => import(/* webpackChunkName: "v-04c1b7cf" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/project/vue-cli.html.vue")),
   // path: /origin/loader.html
   "v-1cfd2df6": defineAsyncComponent(() => import(/* webpackChunkName: "v-1cfd2df6" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/origin/loader.html.vue")),
   // path: /origin/plugin.html
@@ -63,6 +55,14 @@ export const pagesComponents = {
   "v-2259a8b0": defineAsyncComponent(() => import(/* webpackChunkName: "v-2259a8b0" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/origin/index.html.vue")),
   // path: /origin/summary.html
   "v-860cdcba": defineAsyncComponent(() => import(/* webpackChunkName: "v-860cdcba" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/origin/summary.html.vue")),
+  // path: /project/react-cli.html
+  "v-61413f94": defineAsyncComponent(() => import(/* webpackChunkName: "v-61413f94" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/project/react-cli.html.vue")),
+  // path: /project/
+  "v-c9bbfba2": defineAsyncComponent(() => import(/* webpackChunkName: "v-c9bbfba2" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/project/index.html.vue")),
+  // path: /project/summary.html
+  "v-2a04a4a2": defineAsyncComponent(() => import(/* webpackChunkName: "v-2a04a4a2" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/project/summary.html.vue")),
+  // path: /project/vue-cli.html
+  "v-04c1b7cf": defineAsyncComponent(() => import(/* webpackChunkName: "v-04c1b7cf" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/project/vue-cli.html.vue")),
   // path: /senior/enhanceExperience.html
   "v-7964f787": defineAsyncComponent(() => import(/* webpackChunkName: "v-7964f787" */"F:/VSCodeProjects/MySource/webpackProjects/webpack5_docs/docs/.vuepress/.temp/pages/senior/enhanceExperience.html.vue")),
   // path: /senior/liftingSpeed.html

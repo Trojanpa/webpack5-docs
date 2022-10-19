@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="200" src="http://xxpromise.gitee.io/webpack5-docs/imgs/logo.svg">
+  <img width="200" src="https://trojanpa.github.io/webpack5_docs/imgs/logo.svg">
   <h1>Webpack5 教程文档</h1>
 </div>
 
@@ -14,13 +14,13 @@
 
 ## 🌐 地址
 
-- [http://xxpromise.gitee.io/webpack5-docs](http://xxpromise.gitee.io/webpack5-docs)
+- [https://github.com/Trojanpa/webpack5_docs.git](https://github.com/Trojanpa/webpack5_docs.git)
 
 ## 📦️ 启动方式
 
 ### 1. 下载依赖
 
-```
+```shell
 npm i
 ```
 
