@@ -1,32 +1,32 @@
 export const data = {
-  key: 'v-3fe9ea34',
-  path: '/senior/',
-  title: '介绍',
-  lang: 'zh-CN',
-  frontmatter: {},
-  excerpt: '',
-  headers: [],
-  git: {
-    contributors: [
+  "key": "v-3fe9ea34",
+  "path": "/senior/",
+  "title": "介绍",
+  "lang": "zh-CN",
+  "frontmatter": {},
+  "excerpt": "",
+  "headers": [],
+  "git": {
+    "contributors": [
       {
-        name: 'hoo',
-        email: 'hoo@qq.com',
-        commits: 1,
-      },
-    ],
+        "name": "胡雄柏",
+        "email": "1556511170@qq.com",
+        "commits": 1
+      }
+    ]
   },
-  filePathRelative: 'senior/README.md',
-};
+  "filePathRelative": "senior/README.md"
+}
 
 if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept();
+  import.meta.webpackHot.accept()
   if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data);
+    __VUE_HMR_RUNTIME__.updatePageData(data)
   }
 }
 
 if (import.meta.hot) {
   import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data);
-  });
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }
