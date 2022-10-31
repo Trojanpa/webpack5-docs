@@ -10,7 +10,7 @@
     "vuepress-plugin-copy-code2": "2.0.0-beta.38"
   },
   "scripts": {
-    "start": "vuepress dev docs",
+    "start": "yarn dev",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   }

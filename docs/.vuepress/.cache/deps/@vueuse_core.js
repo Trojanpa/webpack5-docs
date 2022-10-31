@@ -52,7 +52,7 @@ init_define_MZ_ZOOM_OPTIONS();
 init_define_SEARCH_HOT_KEYS();
 init_define_SEARCH_LOCALES();
 
-// node_modules/@vueuse/core/node_modules/@vueuse/shared/index.mjs
+// node_modules/@vueuse/shared/index.mjs
 init_define_CODE_COPY_LOCALES();
 init_define_CODE_COPY_OPIONS();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
@@ -60,7 +60,7 @@ init_define_MZ_ZOOM_OPTIONS();
 init_define_SEARCH_HOT_KEYS();
 init_define_SEARCH_LOCALES();
 
-// node_modules/@vueuse/core/node_modules/vue-demi/lib/index.mjs
+// node_modules/vue-demi/lib/index.mjs
 init_define_CODE_COPY_LOCALES();
 init_define_CODE_COPY_OPIONS();
 init_define_EXTERNAL_LINK_ICON_LOCALES();
@@ -86,7 +86,7 @@ function del(target, key) {
   delete target[key];
 }
 
-// node_modules/@vueuse/core/node_modules/@vueuse/shared/index.mjs
+// node_modules/@vueuse/shared/index.mjs
 var __defProp$8 = Object.defineProperty;
 var __defProps$5 = Object.defineProperties;
 var __getOwnPropDescs$5 = Object.getOwnPropertyDescriptors;
