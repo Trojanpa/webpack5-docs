@@ -1,5 +1,3 @@
-# Webpack5 教程文档
-
 <div align="center">
   <img width="200" src="https://trojanpa.github.io/webpack5_docs/imgs/logo.svg">
   <h1>Webpack5 教程文档</h1>
